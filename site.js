@@ -2,6 +2,14 @@
   const year = document.getElementById('year');
   if (year) year.textContent = String(new Date().getFullYear());
 
+  document.querySelectorAll('[data-language-link]').forEach(link => {
+    link.addEventListener('click', () => {
+      const destination = new URL(link.href);
+      destination.hash = window.location.hash;
+      link.href = destination.href;
+    });
+  });
+
   const links = [...document.querySelectorAll('.side-nav a')];
   const topLinks = [...document.querySelectorAll('.top-nav a[href^="#"]')];
   const sections = [...document.querySelectorAll('main section[id]')];
