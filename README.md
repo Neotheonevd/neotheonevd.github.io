@@ -14,8 +14,8 @@ Live site: https://neotheonevd.github.io/
 
 The top-right language selector switches between independent pages.
 The illustration is a background, not a portrait or hero banner.
-Personal introductions and additional descriptions are intentionally left for the owner to write.
-Insert paragraphs inside `.about-copy` in each HTML page; the HTML comments mark other optional descriptions.
+The personal introductions state the owner's university, degree subject, previous research, and current interests in each page's language.
+Edit the paragraphs inside `.about-copy` in each HTML page; the HTML comments mark other optional descriptions.
 
 This is a static website with no build step, tracking, or third-party JavaScript.
 GitHub Pages serves the `main` branch at its root; `.nojekyll` keeps the files unchanged.
