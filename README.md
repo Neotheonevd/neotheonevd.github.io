@@ -28,4 +28,4 @@ python -m http.server 8765
 
 Open http://localhost:8765/ in a browser.
 
-Current background: `assets/starry-rain-city-v2.png` — a rainy neon street with giant advertising billboards beneath a swirling starry sky.
+Current background: `assets/rain-city-david-lucy-v3.png` — a restrained, starless rainy city with exactly two advertising screens, one for David and one for Lucy.
