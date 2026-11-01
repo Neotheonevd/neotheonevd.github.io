@@ -10,7 +10,7 @@ Live site: https://neotheonevd.github.io/
 - `zh/index.html`: Chinese edition.
 - `styles.css`: desktop and mobile layouts, colors, and typography.
 - `site.js`: active section navigation and footer year.
-- `assets/`: original banner artwork and a small vector star icon.
+- `assets/`: original site background artwork and a small vector star icon.
 
 The top-right language selector switches between independent pages.
 The illustration is a background, not a portrait or hero banner.
@@ -27,3 +27,5 @@ python -m http.server 8765
 ```
 
 Open http://localhost:8765/ in a browser.
+
+Current background: `assets/starry-rain-city-v2.png` — a rainy neon street with giant advertising billboards beneath a swirling starry sky.
